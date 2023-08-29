@@ -106,6 +106,7 @@ Running Redis
 -------------
 
 To run Redis with the default configuration just type:
+    % cp redis.conf /etc/redis.conf
     % cp redis.service /usr/lib/systemd/system/redis.service
     % cd src
     % ./redis-server
